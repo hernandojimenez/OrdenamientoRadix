@@ -24,34 +24,34 @@ public class RadixSortEjerc {
                 char aux = array[i].charAt(array[i].length()-cont);//12345
                     switch (aux){
                         case '0':
-                             L0[ut.getLength(L0)] = array[i];
+                             L0[i] = array[i];
                              break;
                         case '1':
-                            L1[ut.getLength(L1)] = array[i];
+                            L1[i] = array[i];
                             break;
                         case '2':
-                            L2[ut.getLength(L2)]=array[i];
+                            L2[i]=array[i];
                             break;
                         case '3':
-                            L3[ut.getLength(L3)]=array[i];
+                            L3[i]=array[i];
                             break;
                         case '4':
-                            L4[ut.getLength(L4)]=array[i];
+                            L4[i]=array[i];
                             break;
                         case '5':
-                            L5[ut.getLength(L5)]=array[i];
+                            L5[i]=array[i];
                             break;
                         case '6':
-                            L6[ut.getLength(L6)]=array[i];
+                            L6[i]=array[i];
                             break;
                         case '7':
-                            L7[ut.getLength(L7)]=array[i];
+                            L7[i]=array[i];
                             break;
                         case '8':
-                            L8[ut.getLength(L8)]=array[i];
+                            L8[i]=array[i];
                             break;
                         case '9':
-                            L9[ut.getLength(L9)]=array[i];
+                            L9[i]=array[i];
                             break;
                     }
 
@@ -70,7 +70,7 @@ public class RadixSortEjerc {
     }
 
     public static void main(String[] args) {
-        int arr[]={16223,898,13,906,235,23,9,1532,6388,2511,8};
+        int arr[]={16223,898,13,906,235,23,9,1532,6388,2511,889898,1};
         StringUtil stringUtil = new StringUtil();
         String res0[] = stringUtil.toStringArray(arr);
         int maxLength = stringUtil.maxLength(res0);
